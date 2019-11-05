@@ -1,5 +1,8 @@
 module Simrel
+export my_fun
 
-greet() = print("Hello World!")
+greet() = "Hello World!"
+
+include("utilities.jl")
 
 end # module
